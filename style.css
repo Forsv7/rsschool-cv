@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    min-height: 40px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    background-color: oldlace;
+}
+
+.header {
+background-color: #72c972;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+    min-height: 50px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    list-style: none;
+    
+}
+
+.nav-link {
+position: relative;
+padding: 0px 12px;
+text-decoration: dashed;
+font-size: 20px;
+font-weight: 300;
+line-height: 50px;
+color: blanchedalmond;
+}
+
+.main-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.section-profile {
+display: flex;
+justify-content: space-around;
+width: 100%;
+padding: 50px 30px 35px;
+border-bottom: 15px solid greenyellow;
+}
+
+.profile-foto {
+width: 250px;
+object-fit: cover;
+border-radius: 50%;
+box-shadow: 0 1px 4px gray;
+filter: grayscale(0.2) brightness(1.05);
+transition: .3s;
+}
+
+.section-profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.section {
+    width: 50%;
+    padding: 10px;
+    padding-bottom: 35px;
+    border-bottom: 1px solid black;
+}
+
+.section-title {
+    display: flex;
+    justify-content: center; 
+}
+
+.footer {
+   background-color: rgb(30, 226, 118);
+   padding: 30px;
+   
+    }
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+.rss {
+    width: 80px;
+    height: 30px;
+    background-image: url(./assets/img/rs_school_js.svg);
+    }
+
+@keyframes color-change {
+    0% {color: rgb(219, 22, 22);}
+    50% {color:#72c972 }
+    100% {color: rgb(219, 22, 22);}
+}
+.animation {
+    animation: color-change 3s infinite;
+}
