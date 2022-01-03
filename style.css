@@ -25,16 +25,10 @@ background-color: #72c972;
 }
 
 .container {
-    padding: ;
     max-width: 1440px;
     margin: auto;
     min-height: 50px;
 }
-
-.header-container {}
-
-.nav{}
-
 
 .nav-list {
     display: flex;
@@ -52,8 +46,6 @@ font-weight: 300;
 line-height: 50px;
 color: blanchedalmond;
 }
-
-.main {}
 
 .main-container {
 display: flex;
